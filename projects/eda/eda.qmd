@@ -1,0 +1,19 @@
+---
+title: "EDA project"
+editor: visual
+description: "An EDA Project, supposedly"
+date: June 2024
+about: 
+  template: solana
+  image: cover.png
+  links: 
+    - icon: github
+      text: "GitHub"
+      href: https://github.com/dbrwdbcj/CMSAC-NWSL-EDA
+    - icon: laptop
+      text: Slides
+      href: https://docs.google.com/presentation/d/1_r0uElS9tPglqkTAiJiNBaLrsHBWWKWAvBimbWt2mrM/edit?usp=sharing
+---
+
+Insert description down here.
+All markdown syntax

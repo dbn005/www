@@ -1,0 +1,21 @@
+---
+title: "Danny Nolan"
+about: 
+  template: jolla
+  image: assets/frank_l.png
+  image-shape: rounded
+  links: 
+    - icon: envelope
+      text: Email
+      href: mailto:dbn005@bucknell.edu
+    - icon: github
+      text: GitHub
+      href: https://github.com/dbn005  
+      target: _blank
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/danny-nolan-9b738b261/  
+---
+
+Welcome to my website! I am a rising senior at Bucknell University majoring in 
+Statistics and minoring in Economics and Classics.
