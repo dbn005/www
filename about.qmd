@@ -1,9 +1,10 @@
 ---
-title: "About"
+title: "About Me"
+about:
+  image: delphi_sunset.jpg
+  template: trestles
 ---
 
-About this site
+Since beginning at Bucknell University in the fall of 2021, I have been participated in many activities both on and off-campus.  At school, I have ran study groups, graded for math classes, and done research with professors.  Outside the classroom, I have played club sports and mentored students acclimating to college.  Over the past two summers, I have been part of two research programs.  In 2023, I worked within Bucknell's Digital Scholarship Summer Research Fellowship (DSSRF).  The following year, I participated in the Carnegie Mellon Sports Analytics Camp (CMSACamp).  Both summers, I worked on sports-specific projects that provided me with invaluable experience in the sports analytics world. See the "Projects" tab for results from that research and more!
 
-```{r}
-1 + 1
-```
+I am a passionate sports fan, and one of the reasons I find statistics so interesting is because of how it overlaps with sports. When I have had the chance to choose topics for open-ended research, I often opt to explore sports-related questions, such as searching for a correlation between player statistics and MLB contracts or trying to model the time it takes to score the first points in an NFL game.

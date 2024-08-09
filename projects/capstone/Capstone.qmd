@@ -1,24 +1,26 @@
 ---
-title: "Capstone"
+title: "Weapons of Best Production: Predicting the Optimal Pitch Arsenal Adjustment for Superior Stuff+"
 editor: visual
-description: "Capstone project on a pitch recommendation system in MLB"
-date: July 2024
+description: "CMSACamp Capstone Project on a Pitch Recommendation System in Major League Baseball"
+date: 2024-07-26
 about: 
   template: solana
-  image: cover.png
+  image: cover.jpg
   links: 
     - icon: github
       text: "GitHub"
       href: https://github.com/nehakotha7/CMSAC-Dodgers-Project
     - icon: laptop
       text: Slides
-      href: https://docs.google.com/presentation/d/1ol66WBsCZmR8Umm8a6jy-t9BFpNCM59FGii47Q0GBLk/edit?usp=sharing
+      href: https://docs.google.com/presentation/d/1D4JpL550SN8yslBY7vu3OtxS9_AtInp36FAbim5bltE/edit?usp=sharing
     - icon: file
       text: Poster
-      href: bit.ly/mnbvpoiu
+      href: https://www.stat.cmu.edu/cmsac/sure/2024/showcase/baseball_dodgers/poster.pdf
     - icon: pencil
       text: Report  
-      href: bit.ly/mnbvpoiu
+      href: https://www.stat.cmu.edu/cmsac/sure/2024/showcase/baseball_dodgers/report.html
 ---
 
-Insert description down here
+This summer, I had the amazing privilege of being part of the Carnegie Mellon Sports Analytics Camp, or CMSACamp for short.  The program, hosted by CMU's Department of Statistics and Data Science, focused on honing skills in statistical and data science methodology and applying those skills to the world of Sports Analytics. Our cohort, which was comprised of fifteen students in total, got to learn from exemplary faculty and instructors and hear from guest speakers who are experts in their respective fields.  
+
+The program culminated in a capstone project, with each group of three students worked with an advisor to solve a relevant problem in the world of sports.  My groupmates, Gabriel Eze and Neha Kotha, and I worked with Samuel Fleischer, a Senior Quantitative Analyst for the Los Angeles Dodgers of Major League Baseball, and we were tasked with creating a pitch recommendation system that suggests, with conviction, the best pitch for an MLB pitcher to add to their arsenal.  Check out the links on this page to see the results of our research!

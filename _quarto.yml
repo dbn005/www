@@ -5,9 +5,11 @@ project:
 
 website:
   title: "Danny Nolan"
+  page-footer: "Last Updated August 2024" 
   navbar:
-    background: '#000080'
-    foreground: '#FFFFFF'
+    background: 'primary'
+    foreground: 'secondary'
+    pinned: false
     left:
       - href: index.qmd
         text: Home

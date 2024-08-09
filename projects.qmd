@@ -1,8 +1,9 @@
 ---
 title: "Projects"
-listing: 
+listing:
   contents: projects
+  sort: date desc
   type: default
 ---
 
-Below, you can find my projects...
+Below, you can find projects that I have worked on.

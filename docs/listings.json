@@ -3,7 +3,9 @@
     "listing": "/projects.html",
     "items": [
       "/projects/capstone/Capstone.html",
-      "/projects/eda/eda.html"
+      "/projects/eda/eda.html",
+      "/projects/dssrf/dssrf.html",
+      "/projects/math230/math230.html"
     ]
   }
 ]

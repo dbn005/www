@@ -1,8 +1,8 @@
 ---
-title: "EDA project"
+title: "NSWL EDA"
 editor: visual
-description: "An EDA Project, supposedly"
-date: June 2024
+description: "CMSACamp EDA project visualizing statistics and trends within the National Women's Soccer League"
+date: 2024-06-17
 about: 
   template: solana
   image: cover.png
@@ -15,5 +15,6 @@ about:
       href: https://docs.google.com/presentation/d/1_r0uElS9tPglqkTAiJiNBaLrsHBWWKWAvBimbWt2mrM/edit?usp=sharing
 ---
 
-Insert description down here.
-All markdown syntax
+This summer, I had the amazing privilege of being part of the Carnegie Mellon Sports Analytics Camp, or CMSACamp for short.  The program, hosted by CMU's Department of Statistics and Data Science, focused on honing skills in statistical and data science methodology and applying those skills to the world of Sports Analytics. Our cohort, which was comprised of fifteen students in total, got to learn from exemplary faculty and instructors and hear from guest speakers who are experts in their respective fields.
+
+We began the summer with an EDA project to become familiar with different visualization techniques.  Along with my teammates, Neha Kotha and Ian Perez, I explored data from the National Women's Soccer League and analyzed both team and league success.  See the attached links to check out our work!

@@ -1,0 +1,26 @@
+---
+title: "The Evolution of the Major League Baseball Contract"
+editor: visual
+description: "History, Statistics, and Forecasting the Future"
+date: 2023-07-21
+about: 
+  template: solana
+  image: cover.png
+  links: 
+    - icon: laptop
+      text: Website
+      href: https://statisticsbehindmlbcontracts.blogs.bucknell.edu/
+---
+
+In the summer of 2023, I was fortunate enough to be accepted into a research program hosted by Bucknell University's Library and Information Technology Department.  The program, called the Digital Scholarship Summer Research Fellowship (DSSRF), aims to introduce students to digital tools and methodologies and then have them apply those skills to a research project of their choosing.  Our cohort met nearly every day, first to learn these new digital tools and then to support each other as we worked through our research.
+
+My research centered around the evolution of the Major League Baseball contract.  I wanted to look at not only how the contracts themselves have changed, but also how the metrics that MLB teams value have changed.  I split my work into three parts:
+
+1.  An interactive timeline that highlighed many of the sport's important contractual developments, from professional baseball's first contract in 1870 to Shohei Ohtani's mammoth deal in the 2023 offseason.  
+
+2.  Visualizations of data surrounding MLB free agent contracts for the purpose of highlighting trends and important variables.
+
+3.  A predictive model that aims to calculate what a certain player might receive in free agency.  
+
+Click on the attached link to see the full results of my research!
+

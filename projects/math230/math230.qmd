@@ -1,0 +1,18 @@
+---
+title: "Math 230 Final Project"
+editor: visual
+description: "Website created featuring visualizations built through RStudio."
+date: 2022-05-10
+about: 
+  template: solana
+  image: cover.png
+  links: 
+    - icon: github
+      text: "GitHub"
+      href: https://github.com/dbn005/Viz-Using-RStudio/tree/main/dnolan_website_2.0
+    - icon: laptop
+      text: Website
+      href: https://dbn005.github.io/Viz-Through-RStudio/index.html
+---
+
+During the second semester of my first year at Bucknell, I took a math class called Data Visualization and Computing.  This class was my first introduction to R, and I learned a lot about the language and how to use it to construct helpful visualizations.  The class culminated with a final project: a website that acted in part as a portfolio, housing the work that we had done throughout the year.  The other aspect of the project was more open-ended, allowing us to build visualizations on a topic of our choice.  I chose to examine the 2021 MLB season, and I crafted visualizations analyzing pitcher performance during that year.  Use the link here to take a look!

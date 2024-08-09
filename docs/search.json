@@ -4,34 +4,48 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Below, you can find my projects…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCapstone\n\n\n\n\n\nCapstone project on a pitch recommendation system in MLB\n\n\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nEDA project\n\n\n\n\n\nAn EDA Project, supposedly\n\n\n\n\n\nJun 1, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Below, you can find projects that I have worked on.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeapons of Best Production: Predicting the Optimal Pitch Arsenal Adjustment for Superior Stuff+\n\n\n\n\n\nCMSACamp Capstone Project on a Pitch Recommendation System in Major League Baseball\n\n\n\n\n\nJul 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nNSWL EDA\n\n\n\n\n\nCMSACamp EDA project visualizing statistics and trends within the National Women’s Soccer League\n\n\n\n\n\nJun 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nThe Evolution of the Major League Baseball Contract\n\n\n\n\n\nHistory, Statistics, and Forecasting the Future\n\n\n\n\n\nJul 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nMath 230 Final Project\n\n\n\n\n\nWebsite created featuring visualizations built through RStudio.\n\n\n\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/capstone/Capstone.html",
     "href": "projects/capstone/Capstone.html",
-    "title": "Capstone",
+    "title": "Weapons of Best Production: Predicting the Optimal Pitch Arsenal Adjustment for Superior Stuff+",
     "section": "",
-    "text": "Insert description down here"
+    "text": "This summer, I had the amazing privilege of being part of the Carnegie Mellon Sports Analytics Camp, or CMSACamp for short. The program, hosted by CMU’s Department of Statistics and Data Science, focused on honing skills in statistical and data science methodology and applying those skills to the world of Sports Analytics. Our cohort, which was comprised of fifteen students in total, got to learn from exemplary faculty and instructors and hear from guest speakers who are experts in their respective fields.\nThe program culminated in a capstone project, with each group of three students worked with an advisor to solve a relevant problem in the world of sports. My groupmates, Gabriel Eze and Neha Kotha, and I worked with Samuel Fleischer, a Senior Quantitative Analyst for the Los Angeles Dodgers of Major League Baseball, and we were tasked with creating a pitch recommendation system that suggests, with conviction, the best pitch for an MLB pitcher to add to their arsenal. Check out the links on this page to see the results of our research!"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Since beginning at Bucknell University in the fall of 2021, I have been participated in many activities both on and off-campus. At school, I have ran study groups, graded for math classes, and done research with professors. Outside the classroom, I have played club sports and mentored students acclimating to college. Over the past two summers, I have been part of two research programs. In 2023, I worked within Bucknell’s Digital Scholarship Summer Research Fellowship (DSSRF). The following year, I participated in the Carnegie Mellon Sports Analytics Camp (CMSACamp). Both summers, I worked on sports-specific projects that provided me with invaluable experience in the sports analytics world. See the “Projects” tab for results from that research and more!\nI am a passionate sports fan, and one of the reasons I find statistics so interesting is because of how it overlaps with sports. When I have had the chance to choose topics for open-ended research, I often opt to explore sports-related questions, such as searching for a correlation between player statistics and MLB contracts or trying to model the time it takes to score the first points in an NFL game."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Danny Nolan",
     "section": "",
-    "text": "Welcome to my website! I am a rising senior at Bucknell University majoring in Statistics and minoring in Economics and Classics."
+    "text": "Welcome to my website! I am a rising senior at Bucknell University majoring in Statistics and minoring in Economics and Classics. Use the navigation bar at the top of the page to learn about me and see some of the work that I have done in data analytics."
   },
   {
     "objectID": "projects/eda/eda.html",
     "href": "projects/eda/eda.html",
-    "title": "EDA project",
+    "title": "NSWL EDA",
     "section": "",
-    "text": "Insert description down here. All markdown syntax"
+    "text": "This summer, I had the amazing privilege of being part of the Carnegie Mellon Sports Analytics Camp, or CMSACamp for short. The program, hosted by CMU’s Department of Statistics and Data Science, focused on honing skills in statistical and data science methodology and applying those skills to the world of Sports Analytics. Our cohort, which was comprised of fifteen students in total, got to learn from exemplary faculty and instructors and hear from guest speakers who are experts in their respective fields.\nWe began the summer with an EDA project to become familiar with different visualization techniques. Along with my teammates, Neha Kotha and Ian Perez, I explored data from the National Women’s Soccer League and analyzed both team and league success. See the attached links to check out our work!"
+  },
+  {
+    "objectID": "projects/dssrf/dssrf.html",
+    "href": "projects/dssrf/dssrf.html",
+    "title": "The Evolution of the Major League Baseball Contract",
+    "section": "",
+    "text": "In the summer of 2023, I was fortunate enough to be accepted into a research program hosted by Bucknell University’s Library and Information Technology Department. The program, called the Digital Scholarship Summer Research Fellowship (DSSRF), aims to introduce students to digital tools and methodologies and then have them apply those skills to a research project of their choosing. Our cohort met nearly every day, first to learn these new digital tools and then to support each other as we worked through our research.\nMy research centered around the evolution of the Major League Baseball contract. I wanted to look at not only how the contracts themselves have changed, but also how the metrics that MLB teams value have changed. I split my work into three parts:\n\nAn interactive timeline that highlighed many of the sport’s important contractual developments, from professional baseball’s first contract in 1870 to Shohei Ohtani’s mammoth deal in the 2023 offseason.\nVisualizations of data surrounding MLB free agent contracts for the purpose of highlighting trends and important variables.\nA predictive model that aims to calculate what a certain player might receive in free agency.\n\nClick on the attached link to see the full results of my research!"
+  },
+  {
+    "objectID": "projects/math230/math230.html",
+    "href": "projects/math230/math230.html",
+    "title": "Math 230 Final Project",
+    "section": "",
+    "text": "During the second semester of my first year at Bucknell, I took a math class called Data Visualization and Computing. This class was my first introduction to R, and I learned a lot about the language and how to use it to construct helpful visualizations. The class culminated with a final project: a website that acted in part as a portfolio, housing the work that we had done throughout the year. The other aspect of the project was more open-ended, allowing us to build visualizations on a topic of our choice. I chose to examine the 2021 MLB season, and I crafted visualizations analyzing pitcher performance during that year. Use the link here to take a look!"
   }
 ]
