@@ -2,6 +2,7 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/nist/nist.html",
       "/projects/capstone/Capstone.html",
       "/projects/eda/eda.html",
       "/projects/dssrf/dssrf.html",
