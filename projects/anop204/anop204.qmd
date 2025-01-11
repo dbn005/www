@@ -1,0 +1,20 @@
+---
+title: "NHL Regression Modeling"
+editor: visual
+description: "Using Regression to Model Goals Scored and Translating those Goals into Wins"
+date: 2024-12-12
+about: 
+  template: solana
+  image: cover.png
+  links: 
+    - icon: reception-3
+      text: "Data"
+      href: https://docs.google.com/spreadsheets/d/1LwgrVJhMG5heSXxWzvI7lCc1JpkXY7zDgcddMMcmLBU/edit?usp=sharing
+    - icon: laptop
+      text: Slides
+      href: https://docs.google.com/presentation/d/1kLfbNbjxpmLN6VNpoHy8ycB02Ef5C3YO_E5MywkO5kw/edit?usp=sharing
+---
+
+In the fall of 2024, I took a sports analytics class at Bucknell.  For the final project, my group and I examined NHL data from recent seasons.  We performed two types of regression on the data with the objective of predicting goals scored.  We used R to generate a linear regression model and a Poisson regression model, using LASSO as a variable selection technique.  We were able to determine which metrics had a significant association with goals scored.  Additionally, we compared the models by mean absolute error (MAE) and adjusted $R^2$.  These model evaluation metrics indicated that the linear LASSO regression model was slightly more effective.
+
+From there, we wanted to transfer goals scored into wins.  In other words, we sought to answer the question, "How many additional goals must a team score in order to improve its record by one win?".  To do so, we employed the principles from the Pythagorean Theorem of Baseball and put them towards hockey.  We found that, assuming goals allowed is held constant, 4.8 goals scored is worth one win.  And from our regression analysis earlier, we were able to express wins in terms of the variable deemed significant in the linear model.  For more detail, see the links provided.

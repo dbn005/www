@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2024-12-12">
+<meta name="description" content="Using Regression to Model Goals Scored and Translating those Goals into Wins">
 
-<title>Danny Nolan - About Me</title>
+<title>Danny Nolan - NHL Regression Modeling</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,8 +70,37 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -79,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Danny Nolan</span>
     </a>
   </div>
@@ -90,15 +121,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -114,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./assets/dnolanResume.pdf"> <i class="bi bi-file-pdf" role="img">
+    <a class="nav-link" href="../../assets/dnolanResume.pdf"> <i class="bi bi-file-pdf" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -132,24 +163,46 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles content">
+<div class="quarto-about-solana column-body content">
   <div class="about-entity">
-    <img src="delphi_sunset.jpg" class="about-image
-  rounded " style="width: 20em;">
-<header id="title-block-header" class="quarto-title-block default">
+    <div class="entity-contents">
+      <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About Me</h1>
+<h1 class="title">NHL Regression Modeling</h1>
+</div>
+<div>
+  <div class="description">
+    Using Regression to Model Goals Scored and Translating those Goals into Wins
+  </div>
 </div>
 <div class="quarto-title-meta">
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 12, 2024</p>
+    </div>
   </div>
-</header>
   </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>Since beginning at Bucknell University in the fall of 2021, I have participated in many activities both on and off-campus. At school, I have ran study groups, graded for math classes, and done research with professors. Outside the classroom, I have played club sports and mentored students acclimating to college. In the spring of 2024, I studied abroad in Athens, picking up not only a minor in Classics but also new experiences that have shaped my perspective of the world. Over the past two summers, I have been part of two research programs. In 2023, I was a fellow in Bucknell’s Digital Scholarship Summer Research Fellowship (DSSRF). The following year, I participated in the Carnegie Mellon Sports Analytics Camp (CMSACamp). Both summers, I worked on sports-specific projects that provided me with invaluable experience in the sports analytics world. See the “Projects” tab for results from that research and more!</p>
-<p>I am a passionate sports fan, and one of the reasons I find statistics so interesting is because of how it overlaps with sports. When I have had the chance to choose topics for open-ended research, I often opt to explore sports-related questions, such as searching for a correlation between player statistics and MLB contracts or trying to model the time it takes to score the first points in an NFL game.</p>
+</header> <div class="about-links">
+  <a href="https://docs.google.com/spreadsheets/d/1LwgrVJhMG5heSXxWzvI7lCc1JpkXY7zDgcddMMcmLBU/edit?usp=sharing" class="about-link" rel="" target="">
+    <i class="bi bi-reception-3"></i>
+     <span class="about-link-text">Data</span>
+  </a>
+  <a href="https://docs.google.com/presentation/d/1kLfbNbjxpmLN6VNpoHy8ycB02Ef5C3YO_E5MywkO5kw/edit?usp=sharing" class="about-link" rel="" target="">
+    <i class="bi bi-laptop"></i>
+     <span class="about-link-text">Slides</span>
+  </a>
+</div>
+      <div class="about-contents"><main class="content" id="quarto-document-content">
+<p>In the fall of 2024, I took a sports analytics class at Bucknell. For the final project, my group and I examined NHL data from recent seasons. We performed two types of regression on the data with the objective of predicting goals scored. We used R to generate a linear regression model and a Poisson regression model, using LASSO as a variable selection technique. We were able to determine which metrics had a significant association with goals scored. Additionally, we compared the models by mean absolute error (MAE) and adjusted <span class="math inline">\(R^2\)</span>. These model evaluation metrics indicated that the linear LASSO regression model was slightly more effective.</p>
+<p>From there, we wanted to transfer goals scored into wins. In other words, we sought to answer the question, “How many additional goals must a team score in order to improve its record by one win?”. To do so, we employed the principles from the Pythagorean Theorem of Baseball and put them towards hockey. We found that, assuming goals allowed is held constant, 4.8 goals scored is worth one win. And from our regression analysis earlier, we were able to express wins in terms of the variable deemed significant in the linear model. For more detail, see the links provided.</p>
 
 
 </main></div>
+    </div>
+    <img src="cover.png" class="about-image
+  rounded " style="width: 15em;">
+  </div>
 </div>
  <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
