@@ -22,5 +22,5 @@ My research centered around the evolution of the Major League Baseball contract.
 
 3.  A predictive model that aims to calculate what a certain player might receive in free agency.  
 
-Click on the attached link to see the full results of my research!
+Click on the attached link to see the full results of my research.
 
