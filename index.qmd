@@ -17,5 +17,5 @@ about:
       href: https://www.linkedin.com/in/danny-nolan-9b738b261/  
 ---
 
-Welcome to my website! I am a rising senior at Bucknell University majoring in 
-Statistics and minoring in Economics and Classics.  Use the navigation bar at the top of the page to learn about me and see some of the work that I have done in data analytics.
+Welcome to my website! I am an aspiring Data Analyst with a strong interest in the sports industry.  I recently graduated from Bucknell University with a major in 
+Statistics and minors in Economics and Classics.  Starting in August 2025, I will be interning as a Football Data Scout for Sports Info Solutions.  Use the navigation bar at the top of the page to learn about me and see some of the work that I have done in data analytics.
