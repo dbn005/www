@@ -5,7 +5,7 @@ description: "A Deep Dive on Some 2026 NFL Draft Prospects"
 date: 2026-1-23
 about: 
   template: solana
-  image: altmyer.webp
+  image: altmyer2.jpg
   links: 
     - icon: link-45deg
       text: "Full SIS NFL Draft Site"
