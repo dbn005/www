@@ -5,7 +5,7 @@ project:
 
 website:
   title: "Danny Nolan"
-  page-footer: "Last Updated July 2025" 
+  page-footer: "Last Updated January 2026" 
   navbar:
     background: 'primary'
     foreground: 'secondary'
