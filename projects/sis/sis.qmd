@@ -1,7 +1,7 @@
 ---
 title: "2026 NFL Draft Scouting Reports"
 editor: visual
-description: "A Deep Dive on Some 2026 NFL Draft Prospects"
+description: "A Deep Dive on Select 2026 NFL Draft Prospects"
 date: 2026-1-23
 image: altmyer2.jpg
 about: 
