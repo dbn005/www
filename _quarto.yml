@@ -22,7 +22,7 @@ website:
       - icon: github
         href: https://github.com/dbn005
       - icon: file-pdf
-        href: assets/dnolanResume.pdf
+        href: assets/Resume - Daniel Nolan.pdf
 format:
   html:
     theme: 

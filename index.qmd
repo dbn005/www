@@ -2,12 +2,12 @@
 title: "Danny Nolan"
 about: 
   template: jolla
-  image: assets/pfp.jpg
+  image: assets/nolan-headshot-2025.jpg
   image-shape: rounded
   links: 
     - icon: envelope
       text: Email
-      href: mailto:dbn005@bucknell.edu
+      href: mailto:dbnolan4@gmail.com
     - icon: github
       text: GitHub
       href: https://github.com/dbn005  
@@ -17,5 +17,5 @@ about:
       href: https://www.linkedin.com/in/danny-nolan-9b738b261/  
 ---
 
-Welcome to my website! I am an aspiring Data Analyst with a strong interest in the sports industry.  I recently graduated from Bucknell University with a major in 
-Statistics and minors in Economics and Classics.  Starting in August 2025, I will be interning as a Football Data Scout for Sports Info Solutions.  Use the navigation bar at the top of the page to learn about me and see some of the work that I have done in data analytics.
+Welcome to my website! I am an aspiring Data Analyst with a strong interest in the sports industry.  I graduated from Bucknell University in 2025 with a major in 
+Statistics and minors in Economics and Classics.  I currently work as an intern in the Tampa Bay Rays' Major League Operations Department.  Previously, I interned as a Football Data Scout for Sports Info Solutions.  Use the navigation bar at the top of the page to learn about me and see some of the work that I have done in data analytics, including from my time with SIS.
